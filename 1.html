@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>1</title>
+  <style>
+    .box{
+      width: 100%;
+      height: 500px;
+      background-color: #f00;
+      position: relative;
+      display: flex;
+    }
+    .leftbox,.rightbox{
+      width: 200px;
+      height: 100%;
+      background-color: #0f0;
+      position: absolute;
+      top: 0;
+    }
+    .centerbox{
+      flex: 1;
+    }
+    .leftbox{
+      left: 0;
+    }
+    .rightbox{
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="leftbox">1</div>
+  <div class="centerbox">2</div>
+  <div class="rightbox">3</div>
+</div>
+<script>
+
+</script>
+</body>
+</html>
